@@ -37,7 +37,7 @@ USB drive exported by the RP2040 bootloader, simply boot your board into
 bootloader mode and run:
 
 ```sh
-cargo run --release --example blinky
+cargo run --release --example blinky --target=thumbv6m-none-eabi
 ```
 
 If you get an error about not being able to find `elf2uf2-rs`, try:

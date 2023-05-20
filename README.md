@@ -26,23 +26,22 @@ rustup target add thumbv6m-none-eabi
 ```
 Clone this repository and run
 ```sh
-cargo build --release --example blinky --target=thumbv6m-none-eabi
+cargo build --release --example blinky
 ```
 
 You will get an ELF file called
 `./target/thumbv6m-none-eabi/release/examples/blinky`
 
 If you want to convert the ELF file to a UF2 and automatically copy it to the
-USB drive exported by the RP2040 bootloader, simply boot your board into
-bootloader mode and run:
-
-```sh
-cargo run --release --example blinky --target=thumbv6m-none-eabi
-```
-
-If you get an error about not being able to find `elf2uf2-rs`, try:
+USB drive exported by the RP2040 bootloader
+you need to install [`elf2uf2-rs`](https://github.com/JoNil/elf2uf2-rs):
 
 ```sh
 cargo install elf2uf2-rs
 ```
-then try repeating the `cargo run` command above.
+and then simply boot your board into
+bootloader mode and run:
+
+```sh
+cargo run --release --example blinky
+```

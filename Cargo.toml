@@ -1,11 +1,11 @@
 [package]
-name = "blok-rust-bsp"
+name = "blok-rs-bsp"
 version = "0.1.0"
 edition = "2021"
-homepage = "https://github.com/Agent59/blok-rust-bsp"
+homepage = "https://github.com/Agent59/blok-rs-bsp"
 description = "Board Support Package for the rp2040 based Blok board"
 license = "Apache-2.0"
-repository = "https://github.com/Agent59/blok-rust-bsp"
+repository = "https://github.com/Agent59/blok-rs-bsp"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

@@ -1,4 +1,4 @@
-# blok-rust-bsp
+# blok-rs-bsp
 A Board Support Package for the RP2040 based Blok microcontroller.
 
 This board support package is based

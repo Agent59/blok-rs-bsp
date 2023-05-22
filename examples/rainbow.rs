@@ -9,8 +9,8 @@ use embedded_hal::timer::CountDown;
 use fugit::ExtU32;
 use panic_halt as _;
 use smart_leds::{brightness, SmartLedsWrite, RGB8};
-use blok_rust_bsp::entry;
-use blok_rust_bsp::{
+use blok_rs_bsp::entry;
+use blok_rs_bsp::{
     hal::{
         clocks::{init_clocks_and_plls, Clock},
         pac,

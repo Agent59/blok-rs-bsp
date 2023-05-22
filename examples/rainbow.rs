@@ -55,8 +55,8 @@ fn main() -> ! {
     // Configure the addressable LED
     let (mut pio, sm0, _, _, _) = pac.PIO0.split(&mut pac.RESETS);
     let mut ws = Ws2812::new(
-        // The onboard NeoPixel is attached to GPIO pin #16 on the Feather RP2040.
-        pins.led.into_mode(),
+        // The onboard rgb_led is attached to GPIO pin 25
+        pins.rgb_led.into_mode(),
         &mut pio,
         sm0,
         clocks.peripheral_clock.freq(),

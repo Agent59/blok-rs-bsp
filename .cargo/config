@@ -1,4 +1,4 @@
-# took this from https://github.com/rp-rs/rp-hal/blob/main/.cargo/config
+# copied this from https://github.com/rp-rs/rp-hal/blob/main/.cargo/config
 
 [build]
 target = "thumbv6m-none-eabi"

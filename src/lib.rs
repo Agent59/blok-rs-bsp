@@ -86,7 +86,7 @@ hal::bsp_pins!(
     },
     
     Gpio25 {
-        name: led,
+        name: rgb_led,
     },
 );
 

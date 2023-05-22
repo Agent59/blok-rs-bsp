@@ -14,7 +14,7 @@ This bsp is in a very early develompent phase and will probably be very unstable
 <br><br><br>
 
 
-## Run the blinky example
+## Run the rainbow example
 
 To run the example, ensure you have the latest stable
 version of Rust installed, along with the right target support:
@@ -26,11 +26,11 @@ rustup target add thumbv6m-none-eabi
 ```
 Clone this repository and run
 ```sh
-cargo build --release --example blinky
+cargo build --release --example rainbow
 ```
 
 You will get an ELF file called
-`./target/thumbv6m-none-eabi/release/examples/blinky`
+`./target/thumbv6m-none-eabi/release/examples/rainbow`
 
 If you want to convert the ELF file to a UF2 and automatically copy it to the
 USB drive exported by the RP2040 bootloader
@@ -43,5 +43,5 @@ and then simply boot your board into
 bootloader mode and run:
 
 ```sh
-cargo run --release --example blinky
+cargo run --release --example rainbow
 ```

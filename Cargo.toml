@@ -23,6 +23,9 @@ embedded-hal = "0.2.7"
 nb = "1.0"
 smart-leds = "0.3.0"
 ws2812-pio = "0.6.0"
+usb-device = "0.2.9"
+usbd-hid = "0.6.1"
+critical-section = "1.1.1"
 
 [features]
 # This is the set of features we enable by default

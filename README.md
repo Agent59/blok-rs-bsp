@@ -5,14 +5,8 @@ This board support package is based
 on the [`rp-hal`](https://github.com/rp-rs/rp-hal)
 and the [`rp-hal-boards`](https://github.com/rp-rs/rp-hal-boards).
 <br>
-In the future this project may be added to the [`rp-hal-boards`](https://github.com/rp-rs/rp-hal-boards) repository.
-<br><br><br>
-
-
-## DISCLAIMER
-This bsp is in a very early develompent phase and will probably be very unstable!
-<br><br><br>
-
+### This project is awaiting acceptance to be added to the [`rp-hal-boards`](https://github.com/rp-rs/rp-hal-boards) repository.
+<br>
 
 ## Run the rainbow example
 

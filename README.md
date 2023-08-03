@@ -1,11 +1,7 @@
 # blok-rs-bsp
 A Board Support Package for the RP2040 based Blok microcontroller.
 
-This board support package is based
-on the [`rp-hal`](https://github.com/rp-rs/rp-hal)
-and the [`rp-hal-boards`](https://github.com/rp-rs/rp-hal-boards).
-<br>
-### This project is awaiting acceptance to be added to the [`rp-hal-boards`](https://github.com/rp-rs/rp-hal-boards) repository.
+## The contents of this project have been moved to the [`rp-hal-boards`](https://github.com/rp-rs/rp-hal-boards) repository <br> under the name [`boardsource-blok`](https://github.com/rp-rs/rp-hal-boards/tree/main/boards/boardsource-blok).
 <br>
 
 ## Run the rainbow example
